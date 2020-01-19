@@ -44,7 +44,7 @@ class Solution {
 	}
 	
 	private static TreeNode construct(int[] inorder, int inStart, int inEnd, 
-									  int[] preorder, int preStart, int preEnd, Map<Integer, Integer> map)       {
+					  int[] preorder, int preStart, int preEnd, Map<Integer, Integer> map){
 		if(inStart > inEnd || preStart > preEnd)
 			return null;
 		
